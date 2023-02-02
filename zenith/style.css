@@ -1,7 +1,11 @@
 :root {
-  
+
   /* Border Radius of All Images */
   --image-border-radii: 5px!important
+}
+
+:root{
+--color-text-gray: #c9c9c9!important
 }
 
 /* Do Not Edit */
@@ -92,10 +96,36 @@ grid-template-columns: repeat(3, 1fr) !important;
   overflow-x: hidden!important;
 }
 
-/* Page Width */
+/* Page Settings Do Not Edit */
 .super-content.max-width {
   max-width: 1400px!important;
   padding-top: 100px!important;
+  background: #080808!important;
+}
+
+/* Nav Bar Color */
+.super-navbar {
+  background: #080808;
+}
+
+/* Nav Bar Logo Color */
+.super-navbar__logo-text {
+  color: #fff!important;
+}
+
+/* Footer Color */
+.super-footer {
+  background: #080808!important;
+}
+
+/* Footer Logo Color */
+.super-footer__logo {
+  color: #fff!important;
+}
+
+/* Footer Link Color */
+.super-footer__link {
+  color: #fff!important;
 }
 
 /* Page Header Visibility */
